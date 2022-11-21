@@ -1,0 +1,132 @@
+@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 mobil*/
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .header-01 {
+        background: #FFFFFF;
+        border-bottom: 1px solid #F8E0FB;
+        height: 76px;
+        .c-wrapper {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .hamb {
+                display: flex;
+                position: absolute;
+                left: 0;
+                top: 26px;
+            }
+            .a-item {
+                display: none;
+            }
+        }
+    }
+}
+
+
+/* Common sm1, sm2 tablet */
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .header-01 {
+        background: #FFFFFF;
+        border-bottom: 1px solid #F8E0FB;
+        height: 76px;
+        .c-wrapper {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .hamb {
+                display: flex;
+                position: absolute;
+                left: 0;
+                top: 26px;
+            }
+            .a-item {
+                display: none;
+            }
+        }
+    }
+}
+
+
+/* Common  md, lg, xl, xxl desktop*/
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .header-01 {
+        background: #FFFFFF;
+        border-bottom: 1px solid #F8E0FB;
+        height: 76px;
+        .c-wrapper {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .hamb {
+                display: none;
+            }
+            .a-item {
+                .level-01 {
+                    display: flex;
+                    justify-content: space-between;
+                    >li {
+                        &:not(:last-child) {
+                            margin-right: 8px;
+                        }
+                        >a {
+                            display: flex;
+                            align-items: center;
+                            padding: 12px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                            opacity: 0.5;
+                            transition: opacity 0.25s;
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                        .level-02 {
+                            visibility: hidden;
+                            position: absolute;
+                            background-color: #FFF;
+                            box-shadow: 5px 10px 8px 10px #888888;
+                            border-radius: 10px;
+                            width: 130px;
+                            padding: 20px;
+                            li {
+                                a {
+                                    display: flex;
+                                    align-items: center;
+                                    padding: 5px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                    color: #000000;
+                                    opacity: 0.5;
+                                    transition: opacity 0.25s;
+                                    &:hover {
+                                        opacity: 1;
+                                    }
+                                }
+                                &:not(:last-child) {
+                                    margin-bottom: 5px;
+                                }
+                            }
+                        }
+                        &:hover {
+                            .level-02 {
+                                visibility: visible;
+                            }
+                        }
+                    }
+                }
+            }
+            .a-item-01 {}
+        }
+    }
+}

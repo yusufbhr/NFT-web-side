@@ -1,0 +1,200 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .Section-01 {
+    height: 468px;
+    overflow: hidden;
+  }
+  .Section-01 .picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .Section-01 .picture .bg-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Section-01 .c-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+    width: 288px;
+  }
+  .Section-01 .c-wrapper .b-item {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+  }
+  .Section-01 .c-wrapper .b-item-01 {
+    margin-bottom: 16px;
+    width: 288px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+  }
+  .Section-01 .c-wrapper .b-item-02 {
+    padding: 12px;
+    background: #532C59;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  }
+  .Section-01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+  }
+}
+/* Common sm1, sm2 tablet */
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .Section-01 {
+    height: 468px;
+    overflow: hidden;
+  }
+  .Section-01 .picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .Section-01 .picture .bg-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Section-01 .c-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+    width: 856px;
+  }
+  .Section-01 .c-wrapper .b-item {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+  }
+  .Section-01 .c-wrapper .b-item-01 {
+    margin-bottom: 32px;
+    width: 690px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+  }
+  .Section-01 .c-wrapper .b-item-02 {
+    padding: 16px;
+    background: #532C59;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .Section-01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+  }
+}
+@media all and (min-width: 1320px) {
+  .Section-01 {
+    height: 574px;
+    overflow: hidden;
+  }
+  .Section-01 .picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .Section-01 .picture .bg-image {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Section-01 .c-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 117px 0;
+    width: 856px;
+  }
+  .Section-01 .c-wrapper .b-item {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #000000;
+    text-shadow: -5px 5px 0px #FFFFFF;
+  }
+  .Section-01 .c-wrapper .b-item-01 {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+  }
+  .Section-01 .c-wrapper .b-item-02 {
+    padding: 16px;
+    background: #532C59;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+  .Section-01::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.4;
+    filter: blur(116px);
+  }
+}/*# sourceMappingURL=Section01.css.map */
