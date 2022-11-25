@@ -1,0 +1,60 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .Section-04 {
+        padding: 48px 0;
+        .c-wrapper {
+            .e-item {
+                margin-top: 80px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .e-item-1 {
+                margin-top: 80px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 12px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .Section-04 {
+        padding: 80px 0;
+        .c-wrapper {
+            .e-item {
+                margin-top: 80px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .e-item-1 {
+                margin-top: 80px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px 12px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Section-04 {
+        padding: 64px 0;
+        .c-wrapper {
+            .e-item {
+                margin-top: 80px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .e-item-1 {
+                margin-top: 80px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}

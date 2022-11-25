@@ -1,0 +1,125 @@
+﻿@import "../../../Base/Global.scss";
+@import "../../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .Cards-02 {
+        background: #FFFFFF;
+        border: 1px solid #D6BCFA;
+        border-radius: 10px;
+        padding: 12px;
+        margin-bottom: 13px;
+        .f-unit {
+            display: flex;
+            margin-bottom: 12px;
+            img {
+                object-fit: cover;
+                margin-right: 5px;
+            }
+            .f-unit-01 {
+                .f-unit-01-A {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                }
+                .f-unit-01-B {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                    opacity: 0.5
+                }
+            }
+        }
+        .f-unit-02 {
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #532C59;
+            }
+        }
+    }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .Cards-02 {
+        background: #FFFFFF;
+        border: 1px solid #D6BCFA;
+        border-radius: 10px;
+        padding: 12px;
+        .f-unit {
+            display: flex;
+            margin-bottom: 12px;
+            img {
+                object-fit: cover;
+                margin-right: 5px;
+            }
+            .f-unit-01 {
+                .f-unit-01-A {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                }
+                .f-unit-01-B {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                    opacity: 0.5
+                }
+            }
+        }
+        .f-unit-02 {
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #532C59;
+            }
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Cards-02 {
+        background: #FFFFFF;
+        border: 1px solid #D6BCFA;
+        border-radius: 10px;
+        padding: 12px;
+        .f-unit {
+            display: flex;
+            margin-bottom: 12px;
+            img {
+                object-fit: cover;
+                margin-right: 5px;
+            }
+            .f-unit-01 {
+                .f-unit-01-A {
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                }
+                .f-unit-01-B {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                    opacity: 0.5
+                }
+            }
+        }
+        .f-unit-02 {
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #532C59;
+            }
+        }
+    }
+}

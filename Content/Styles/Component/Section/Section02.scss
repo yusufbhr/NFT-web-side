@@ -1,0 +1,58 @@
+﻿@import "../../Base/Global.scss";
+@import "../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .Section-02 {
+        padding: 32px 0;
+        .c-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+            justify-content: center;
+            gap: 16px;
+            a {
+                padding-top: 15px;
+                svg {
+                    width: 85px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Common sm1, sm2 tablet */
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .Section-02 {
+        padding: 32px 0;
+        .c-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+            justify-content: center;
+            gap: 24px;
+            a {
+                padding-top: 25px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Section-02 {
+        padding: 40px 0;
+        .c-wrapper {
+            text-align: center;
+            justify-content: center;
+            a {
+                padding-top: 35px;
+                &:not(:last-child) {
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}

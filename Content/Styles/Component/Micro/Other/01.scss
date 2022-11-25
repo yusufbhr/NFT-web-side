@@ -1,0 +1,68 @@
+﻿@import "../../../Base/Global.scss";
+@import "../../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .Micro-Other-01 {
+        .c-item-01 {
+            margin-bottom: 8px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            color: #000000;
+        }
+        .c-item-02 {
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+        }
+    }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .Micro-Other-01 {
+        .c-item-01 {
+            margin-bottom: 16px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 56px;
+            color: #000000;
+        }
+        .c-item-02 {
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #532C59;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Micro-Other-01 {
+        .c-item-01 {
+            margin-bottom: 16px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 64px;
+            color: #000000;
+        }
+        .c-item-02 {
+            width: 820px;
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #532C59;
+        }
+    }
+}

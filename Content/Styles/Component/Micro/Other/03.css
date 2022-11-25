@@ -1,0 +1,109 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .Micro-Other-03 {
+    padding: 24px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+  }
+  .Micro-Other-03 .c-unit-02 {
+    display: flex;
+  }
+  .Micro-Other-03 .c-unit-02 .c-unit {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  .Micro-Other-03 .c-unit-02 > a > svg {
+    transition: transform 0.3s;
+  }
+  .Micro-Other-03 .c-unit-01 {
+    margin-top: 10px;
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+  .Micro-Other-03.on a svg {
+    transform: rotate(180deg);
+  }
+  .Micro-Other-03.on .c-unit-01 {
+    display: block;
+  }
+  .Micro-Other-03:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .Micro-Other-03 {
+    padding: 24px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+  }
+  .Micro-Other-03 .c-unit-02 {
+    display: flex;
+  }
+  .Micro-Other-03 .c-unit-02 .c-unit {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  .Micro-Other-03 .c-unit-02 > a > svg {
+    transition: transform 0.3s;
+  }
+  .Micro-Other-03 .c-unit-01 {
+    margin-top: 10px;
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+  .Micro-Other-03.on a svg {
+    transform: rotate(180deg);
+  }
+  .Micro-Other-03.on .c-unit-01 {
+    display: block;
+  }
+  .Micro-Other-03:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+@media all and (min-width: 1320px) {
+  .Micro-Other-03 {
+    padding: 24px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+  }
+  .Micro-Other-03 .c-unit-02 {
+    display: flex;
+  }
+  .Micro-Other-03 .c-unit-02 .c-unit {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  .Micro-Other-03 .c-unit-02 > a > svg {
+    transition: transform 0.3s;
+  }
+  .Micro-Other-03 .c-unit-01 {
+    margin-top: 10px;
+    display: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+  .Micro-Other-03.on a svg {
+    transform: rotate(180deg);
+  }
+  .Micro-Other-03.on .c-unit-01 {
+    display: block;
+  }
+}/*# sourceMappingURL=03.css.map */

@@ -1,0 +1,77 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .Micro-Other-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Micro-Other-02 > img {
+    margin-bottom: 12px;
+  }
+  .Micro-Other-02 > .e-item-01 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+  }
+  .Micro-Other-02 > .e-item-02 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .Micro-Other-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Micro-Other-02 > img {
+    margin-bottom: 12px;
+  }
+  .Micro-Other-02 > .e-item-01 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+  }
+  .Micro-Other-02 > .e-item-02 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+}
+@media all and (min-width: 1320px) {
+  .Micro-Other-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Micro-Other-02 > img {
+    margin-bottom: 12px;
+  }
+  .Micro-Other-02 > .e-item-01 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+  }
+  .Micro-Other-02 > .e-item-02 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+    max-width: 269px;
+  }
+}/*# sourceMappingURL=02.css.map */

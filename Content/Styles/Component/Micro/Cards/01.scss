@@ -1,0 +1,88 @@
+﻿@import "../../../Base/Global.scss";
+@import "../../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .Cards-01 {
+        text-align: center;
+        img {
+            width: 100%;
+            Height: 396px;
+            margin-bottom: 12px;
+            border: 1px solid #000000;
+            box-shadow: -15px 15px 0px rgb(17 17 17 / 50%);
+            border-radius: 30px;
+            object-fit: cover;
+        }
+        .Cards-01-A {
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #000000;
+        }
+        .Cards-01-B {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+        }
+    }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .Cards-01 {
+        text-align: center;
+        img {
+            width: 100%;
+            Height: 396px;
+            margin-bottom: 12px;
+            border: 1px solid #000000;
+            box-shadow: -15px 15px 0px rgb(17 17 17 / 50%);
+            border-radius: 30px;
+            object-fit: cover;
+        }
+        .Cards-01-A {
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #000000;
+        }
+        .Cards-01-B {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Cards-01 {
+        text-align: center;
+        img {
+            width: 100%;
+            Height: 396px;
+            margin-bottom: 12px;
+            border: 1px solid #000000;
+            box-shadow: -15px 15px 0px rgb(17 17 17 / 50%);
+            border-radius: 30px;
+            object-fit: cover;
+        }
+        .Cards-01-A {
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #000000;
+        }
+        .Cards-01-B {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+        }
+    }
+}

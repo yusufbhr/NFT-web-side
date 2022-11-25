@@ -1,0 +1,83 @@
+﻿@import "../../../Base/Global.scss";
+@import "../../../Base/Colour.scss";
+
+/* Common xs1, xs2 */
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .Micro-Other-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >img {
+            margin-bottom: 12px;
+        }
+        >.e-item-01 {
+            margin-bottom: 12px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: #000000;
+        }
+        >.e-item-02 {
+            text-align: center;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+        }
+    }
+}
+
+@media all and (min-width: #{($mq-sm1) + "px"}) and (max-width: #{($mq-md - 1) + "px"}) {
+    .Micro-Other-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >img {
+            margin-bottom: 12px;
+        }
+        >.e-item-01 {
+            margin-bottom: 12px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #000000;
+        }
+        >.e-item-02 {
+            text-align: center;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+        }
+    }
+}
+
+@media all and (min-width: #{$mq-md + "px"}) {
+    .Micro-Other-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        >img {
+            margin-bottom: 12px;
+        }
+        >.e-item-01 {
+            margin-bottom: 12px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #000000;
+        }
+        >.e-item-02 {
+            text-align: center;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+            color: #532C59;
+            max-width: 269px;
+        }
+    }
+}

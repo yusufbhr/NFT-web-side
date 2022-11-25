@@ -1,0 +1,85 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .Cards-01 {
+    text-align: center;
+  }
+  .Cards-01 img {
+    width: 100%;
+    Height: 396px;
+    margin-bottom: 12px;
+    border: 1px solid #000000;
+    box-shadow: -15px 15px 0px rgba(17, 17, 17, 0.5);
+    border-radius: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Cards-01 .Cards-01-A {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+  }
+  .Cards-01 .Cards-01-B {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .Cards-01 {
+    text-align: center;
+  }
+  .Cards-01 img {
+    width: 100%;
+    Height: 396px;
+    margin-bottom: 12px;
+    border: 1px solid #000000;
+    box-shadow: -15px 15px 0px rgba(17, 17, 17, 0.5);
+    border-radius: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Cards-01 .Cards-01-A {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+  }
+  .Cards-01 .Cards-01-B {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+}
+@media all and (min-width: 1320px) {
+  .Cards-01 {
+    text-align: center;
+  }
+  .Cards-01 img {
+    width: 100%;
+    Height: 396px;
+    margin-bottom: 12px;
+    border: 1px solid #000000;
+    box-shadow: -15px 15px 0px rgba(17, 17, 17, 0.5);
+    border-radius: 30px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .Cards-01 .Cards-01-A {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+  }
+  .Cards-01 .Cards-01-B {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+  }
+}/*# sourceMappingURL=01.css.map */

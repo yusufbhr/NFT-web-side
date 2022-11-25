@@ -1,0 +1,110 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .Cards-02 {
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 13px;
+  }
+  .Cards-02 .f-unit {
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .Cards-02 .f-unit img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 5px;
+  }
+  .Cards-02 .f-unit .f-unit-01 .f-unit-01-A {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .Cards-02 .f-unit .f-unit-01 .f-unit-01-B {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .Cards-02 .f-unit-02 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1319px) {
+  .Cards-02 {
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .Cards-02 .f-unit {
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .Cards-02 .f-unit img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 5px;
+  }
+  .Cards-02 .f-unit .f-unit-01 .f-unit-01-A {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .Cards-02 .f-unit .f-unit-01 .f-unit-01-B {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .Cards-02 .f-unit-02 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+  }
+}
+@media all and (min-width: 1320px) {
+  .Cards-02 {
+    background: #FFFFFF;
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .Cards-02 .f-unit {
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .Cards-02 .f-unit img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 5px;
+  }
+  .Cards-02 .f-unit .f-unit-01 .f-unit-01-A {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .Cards-02 .f-unit .f-unit-01 .f-unit-01-B {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  .Cards-02 .f-unit-02 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #532C59;
+  }
+}/*# sourceMappingURL=02.css.map */
